@@ -6,7 +6,7 @@ import { MemeModule } from './memes/meme.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/meme-engine'),
+    MongooseModule.forRoot('mongodb+srv://cananengin:129581185cnn!@cluster0.qrnhv.mongodb.net/'),
     MemeModule,
   ],
   controllers: [AppController],

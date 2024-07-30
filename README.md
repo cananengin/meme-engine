@@ -98,3 +98,8 @@ This will be handled automatically when the application starts. It will fetch me
 ##### Get a Random Meme
 `curl -X GET http://localhost:3000/memes/random
 `
+
+### Testig
+
+`npm test -- --config=package.json
+`
